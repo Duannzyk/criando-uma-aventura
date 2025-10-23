@@ -2,4 +2,14 @@ body{
    background-color: rgb(64,100,64);
    color: rgb(20, 31, 20);
    font-family: "Pixelify Sans", sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 700px;
+   margin: 0px;
+}
+button {
+   background-color: rgb(125, 199, 125);
+   color: rgb(20, 31, 20);
+   font-family: "Pixelify Sans", sans-serif;
 }
