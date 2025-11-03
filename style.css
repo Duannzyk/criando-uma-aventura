@@ -1,15 +1,24 @@
-body{
-   background-color: rgb(64,100,64);
-   color: rgb(20, 31, 20);
+body {
+   background-color: rgb(64, 100, 64);
+   color: rgb(158, 209, 128);
    font-family: "Pixelify Sans", sans-serif;
    display: flex;
    justify-content: center;
    align-items: center;
    height: 700px;
-   margin: 0px;
+   margin: 0;
 }
+
 button {
-   background-color: rgb(125, 199, 125);
-   color: rgb(20, 31, 20);
+   background-color: #64A712;
+   color: white;
    font-family: "Pixelify Sans", sans-serif;
+}
+
+.passo {
+   display: none;
+}
+
+.passo.ativo {
+   display:block;
 }
